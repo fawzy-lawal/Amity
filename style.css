@@ -79,9 +79,20 @@ nav {
 
 h3{
     text-align: center;
+<<<<<<< HEAD
     padding-top: 60px;
+=======
+    padding-top: 50px;
+>>>>>>> b88bc6b9c40d9dbb3ae0a1b02a257117c450b5d8
 }
 img{
     position: center;
 }
 
+<<<<<<< HEAD
+=======
+hr{
+    background-color: plum;
+    
+}
+>>>>>>> b88bc6b9c40d9dbb3ae0a1b02a257117c450b5d8
