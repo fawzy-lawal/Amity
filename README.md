@@ -13,5 +13,4 @@ Darius- js
 Adonis- html css
 
 
-
 *Reminder for CSS focus-- "." is for class and "#" is for id's
