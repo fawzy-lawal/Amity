@@ -1,5 +1,4 @@
-data = [
-    {
+data = [{
         "charityNavigatorURL": "https://www.charitynavigator.org/?bay=search.profile&ein=000000003&utm_source=DataAPI&utm_content=e9f4b7d6",
         "mission": null,
         "websiteURL": null,
