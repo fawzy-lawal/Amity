@@ -48,9 +48,9 @@ nav {
     
 }
 
-/* .HomeCenter{
+.HomeCenter{
     display: inline-block;
-} */
+}
 
 .navbar-brand{
     /* display: inline-block; */
@@ -62,13 +62,13 @@ nav {
 }
 
 .dropdown-item {
-    /* background-color: white; */
     background-color:#FFEBCD;
+    color: fuchsia;
 }
 
 .dropdown-menu{
-    color: white;
-    background-color:#FFEBCD;
+    color: white; 
+    background-color: #FFEBCD;
 }
 
 #HomeCenter{
@@ -88,4 +88,26 @@ img{
 hr{
     background-color: plum;
     
+}
+
+.navBarDropdownMenuLink:hover .dropdown-menu{
+    display: block;
+    background-color: #B473AC
+}
+
+i{
+    size: 32px;
+}
+.card{
+    background-color: plum;
+    padding-top: 10px;
+}
+}
+.card{
+    background-color: plum;
+    padding-top: 10px;
+}
+
+.card-body{
+    text-align:center;
 }
