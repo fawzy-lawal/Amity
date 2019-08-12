@@ -1,0 +1,31 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #FFEBCD;    
+} 
+
+nav {
+    background: #B473AC
+}
+
+.dropdown-item {
+    /* background-color: white; */
+    background-color:#FFEBCD;
+}
+
+.dropdown-menu{
+    color: white;
+    background-color:#FFEBCD;
+}
+.navbar-brand{
+    /* display: inline-block; */
+    /* align-self: row; */
+    text-align: left;
+    color: white;
+}
+.a.dropdoown{
+    background-color:white;
+}
