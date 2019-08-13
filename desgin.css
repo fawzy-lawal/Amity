@@ -29,3 +29,15 @@ nav {
 .a.dropdoown{
     background-color:white;
 }
+
+.title{
+    color:white;
+    font-size: 35px;
+}
+.foodDonation{
+    padding-top:10px
+}
+.card{
+    background-color: plum;
+    padding-top: 10px;
+}

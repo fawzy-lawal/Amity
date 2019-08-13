@@ -49,9 +49,9 @@ nav {
 
 }
 
-/* .HomeCenter{
+.HomeCenter{
     display: inline-block;
-} */
+}
 
 .navbar-brand {
     /* display: inline-block; */
@@ -63,12 +63,21 @@ nav {
 }
 
 .dropdown-item {
+<<<<<<< HEAD
+    background-color:#FFEBCD;
+    color: fuchsia;
+}
+
+.dropdown-menu{
+    color: white; 
+=======
     /* background-color: white; */
     background-color: #FFEBCD;
 }
 
 .dropdown-menu {
     color: white;
+>>>>>>> 3a14332102f9378667ae5ad1c694c032c97d8c28
     background-color: #FFEBCD;
 }
 
@@ -89,4 +98,30 @@ img {
 
 hr {
     background-color: plum;
+<<<<<<< HEAD
+    
+}
+
+.navBarDropdownMenuLink:hover .dropdown-menu{
+    display: block;
+    background-color: #B473AC
+}
+
+i{
+    size: 32px;
+}
+.card{
+    background-color: plum;
+    padding-top: 10px;
+}
+}
+.card{
+    background-color: plum;
+    padding-top: 10px;
+}
+
+.card-body{
+    text-align:center;
+=======
+>>>>>>> 3a14332102f9378667ae5ad1c694c032c97d8c28
 }

@@ -4,7 +4,7 @@ Demo Day Project- Fawzy, Doug, Darius, Adonis
 FAWZY - We'll split the tasks here in the README
 Put your name first ex(Fawzy - MyTask)
 
-Doug- js(Not product manager)
+Doug- js(Not product manager)(Douglas Mark focus on your work)
 
 Fawzy- html css
 
