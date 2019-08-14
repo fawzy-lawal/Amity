@@ -14,31 +14,41 @@
 //      $('#navbarDropdownMenuLink').dropdown('toggle');
 //  }
 
-function init() {
-    let body = document.getElementsByClassName(`DonationInfo`);
-    let canvas = document.createElement("canvas");
-    canvas.height = window.innerHeight;
-    canvas.width = window.innerWidth;
-    let context = canvas.getContext("2d");
+// let request = new XMLHttpRequest()
 
-    //  Opacity makes a good appearance when objects are overlapped 
-    context.globalAlpha=0.7;
+// request.open('GET', 'http://data.orghunter.com/v1/charitysearch?user_key=yourKey&searchTerm=treasure%20coast%20humane', true)
+// request.onload = function() {
+//   let data = JSON.parse(this.response)
 
-    //  Repeat to draw a rectangle 100 times
-    for(let i=0;i<100;i++){
-        let color = '#'+ Math.round(0xffffff * Math.random()).toString(16);
-        context.fillStyle = color;
+//   if (request.status >= 200 && request.status < 400) {
+//     data.forEach(category => {
+//         console.log(Y)
+//     //   console.log()
+//     })
+//   } else {
+//     console.log('error')
+//   }
+// }
 
-        //Each rectangle is at (0 ~ width of window, 0 ~ height of window)
-        //Each rectangle's size is (20 ~ 100, 20 ~ 100)     
-        context.fillRect(Math.random()*window.innerWidth, Math.random()*window.innerHeight, Math.random()*80+20, Math.random()*80+20);
-    }
+// console.log("Connected");
+// request.send()
 
-    body.appendChild(canvas);
-}
-window.onload = init;
+let url = 'https://data.orghunter.com/v1/categories?user_key=2a28da418dd6cfd9e95cce35a010852b';
+let data;
 
+fetch(url, {
+        method: 'get',
+        headers: {
+            'Access-Control-Allow-Origin': '*'
+        }
+    })
+    .then(function (response) {
+        console.log(response);
+        return response.json();
+    })
+    .then(function (myJson) {
+        data = myJson;
+        console.log(myJson);
+    })
 
-let don1=document.getElementById()
-
-let DonationArray = []
+console.log(data);

@@ -22,12 +22,61 @@
             }
 
             img {
-                padding-top: 25px;
                 width: auto;
             }
 
             h3 {
-                size: 10px
+                text-align: center;
+                font-size: 15px
+            }
+
+            .logo {
+                align-content: center;
+                justify-content: center;
+                padding-top: 15px;
+                padding-right: 5px;
+                padding-left: 5px;
+                width: 150px;
+                height: 150px;
+            }
+
+            .card-body {
+                width: 18rem;
+            }
+
+            .card-img-top {
+                width: 150px;
+            }
+
+            .card-body {
+                text-align: center;
+                font-size: 15px;
+            }
+
+            .card {
+                justify-content: space-around;
+            }
+
+           .navbar-toggler{
+               width: 60px;
+               height: 60px;
+           }
+
+            .nav {
+                width: 150px;
+            }
+
+            .dropdown-menu {
+                font-size: 15px;
+                width: 100px;
+            }
+            h4{
+                font-size: 15px;
+            }
+            .dropdown-item{
+                height: 30px;
+                width: 50px;
+                font-size: 10px;
             }
         }
     </style>
@@ -65,10 +114,7 @@
         </a>
 
         <form class="form-inline">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -104,7 +150,7 @@
 
     <div class="homeCenter">
         <div id="HomeLogo">
-            <img src="Amity (Transparent).png" width="300px" height="300px">
+            <img class="logo" src="Amity (Transparent).png" width="300px" height="300px">
         </div>
         <div id="HomeAbout">
             <h3>Amity is a platform that serves to connect potential donors with local charities, causes, and
@@ -127,13 +173,14 @@
             <!-- <div class="card col-3"></div> -->
             <div class="card" style="width: 18rem;">
                 <a href="https://www.actionagainsthunger.org/" class="card-link">
-                <img class="card-img-top" src="AAG.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Act Against Hunger</h5>
-                    <p class="card-text">Act Against Hunger has been leading the global movement to end life-threatening
-                        hunger around the world!</p>
-                </div>
-            </a>
+                    <img class="card-img-top" src="AAG.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Act Against Hunger</h5>
+                        <p class="card-text">Act Against Hunger has been leading the global movement to end
+                            life-threatening
+                            hunger around the world!</p>
+                    </div>
+                </a>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Whitehall St, New York, NY 10004</li>
                     <li class="list-group-item"> (212) 967-7800</li>
@@ -145,13 +192,13 @@
 
             <div class="card" style="width: 18rem;">
                 <a href="http://www.ccannj.com/" class="card-link">
-                <img class="card-img-top" src="CCU.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Catholic Charities</h5>
-                    <p class="card-text"> They have served over 61,841 individuals in 88 programs in
-                        Bergen, Essex, Hudson and Union Counties and given away 120 tons of food to needy families.
-                    </p>
-                </div>
+                    <img class="card-img-top" src="CCU.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Catholic Charities</h5>
+                        <p class="card-text"> They have served over 61,841 individuals in 88 programs in
+                            Bergen, Essex, Hudson and Union Counties and given away 120 tons of food to needy families.
+                        </p>
+                    </div>
                 </a>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">246 2nd St, Jersey City, NJ 07302</li>
@@ -159,26 +206,27 @@
                 </ul>
                 <div class="card-body">
                     <!-- <a href="http://www.ccannj.com/" class="card-link">Website</a> -->
-                
+
                 </div>
             </div>
 
 
             <div class="card" style="width: 18rem;">
                 <a href="https://www.habitatmonmouth.org/" class="card-link">
-                <img class="card-img-top" src="habitat.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Habitat for Humanity</h5>
-                    <p class="card-text">Habitat for Humanity is located in Monmouth County and brings people together to build affordable homes and build thriving communities.</p>
-                </div>
-            </a>
+                    <img class="card-img-top" src="habitat.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Habitat for Humanity</h5>
+                        <p class="card-text">Habitat for Humanity is located in Monmouth County and brings people
+                            together to build affordable homes and build thriving communities.</p>
+                    </div>
+                </a>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">193 Long Branch Avenue, Long Branch</li>
                     <li class="list-group-item">(732) 577-8160 </li>
                 </ul>
                 <div class="card-body">
                     <!-- <a href="https://www.habitatmonmouth.org/" class="card-link">Website</a> -->
-                
+
 
                 </div>
             </div>
@@ -189,7 +237,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
