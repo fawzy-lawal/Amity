@@ -32,23 +32,29 @@
 
 // console.log("Connected");
 // request.send()
-
-let url = 'https://data.orghunter.com/v1/categories?user_key=2a28da418dd6cfd9e95cce35a010852b';
+ const proxyurl = "https://cors-anywhere.herokuapp.com/";
+let url = 'http://data.orghunter.com/v1/charitysearch?user_key=2a28da418dd6cfd9e95cce35a010852b' ;
+;
 let data;
 
-fetch(url, {
-        method: 'get',
+let donationURLS = []
+
+fetch(proxyurl + url, {
+        method: 'GET',
         headers: {
-            'Access-Control-Allow-Origin': '*'
+            "Content-Type" : "text/plain",'Access-Control-Allow-Origin': '*'
         }
+        
     })
     .then(function (response) {
-        console.log(response);
         return response.json();
     })
     .then(function (myJson) {
         data = myJson;
-        console.log(myJson);
+        // console.log(myJson);
+        const AFSCME = myJson.data[0].charityName;
+        console.log(AFSCME);
+        let p = document.createElement('p');
+        p.innerText = AFSCME;
+  
     })
-
-console.log(data);

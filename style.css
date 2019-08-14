@@ -80,10 +80,13 @@ nav {
 h3 {
     text-align: center;
     padding-top: 60px;
+    font-family: 'Raleway', sans-serif;
 }
 
 img {
     position: center;
+    vertical-align: top;
+
 }
 
 hr {
@@ -101,13 +104,47 @@ i{
 }
 .card{
     background-color: plum;
-    color:black;
+    color:white;
     padding-top: 10px;
+    text-decoration: none;
 }
 .card{
     background-color: plum;
     color:black;
     padding-top: 10px;
+
+}
+
+
+
+.card{
+    background-color: plum;
+    color:black;
+    padding-top: 10px;
+
+}
+
+.card1{
+    background-color: plum;
+    color:black;
+    padding-top: 10px;
+    height: 100%;
+
+}
+
+.card2{
+    background-color: plum;
+    color:black;
+    padding-top: 10px;
+    height: 100%;
+
+}
+
+.card3{
+    background-color: plum;
+    color:black;
+    padding-top: 10px;
+    height: 100%;
 
 }
 
@@ -120,6 +157,14 @@ font{
     text-decoration: none;
 }
 
-a {
+a:link {
     color: black;
-  }
+}
+
+a:visited {
+    color: black;
+}  
+
+.card-end{
+    visibility: hidden;
+}

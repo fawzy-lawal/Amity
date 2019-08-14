@@ -10,7 +10,8 @@ Fawzy- html css
 
 Darius- js
 
-Adonis- html css
+Adonis- html css (Front-end developer)
+
 
 
 *Reminder for CSS focus-- "." is for class and "#" is for id's

@@ -40,7 +40,31 @@ nav {
 .card{
     background-color: plum;
     padding-top: 10px;
-    /* height: 100%; */
+    height: 100%;
+}
+
+.card1{
+    background-color: plum;
+    padding-top: 10px;
+    height: 100%;
+}
+
+.card2{
+    background-color: plum;
+    padding-top: 10px;
+    height: 100%;
+}
+
+.card3{
+    background-color: plum;
+    padding-top: 10px;
+    height: 100%;
+}
+
+.card4{
+    background-color: plum;
+    padding-top: 10px;
+    height: 100%;
 }
 
 .top{
@@ -52,3 +76,12 @@ nav {
     padding: 0px;
     
 } */
+
+
+a:visited {
+    color: black;
+} 
+
+.card-end{
+    visibility: hidden;
+}
