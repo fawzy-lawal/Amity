@@ -37,34 +37,11 @@ nav {
 .foodDonation{
     padding-top:10px
 }
-.card{
+.amityCard{
     background-color: plum;
     padding-top: 10px;
     height: 100%;
-}
-
-.card1{
-    background-color: plum;
-    padding-top: 10px;
-    height: 100%;
-}
-
-.card2{
-    background-color: plum;
-    padding-top: 10px;
-    height: 100%;
-}
-
-.card3{
-    background-color: plum;
-    padding-top: 10px;
-    height: 100%;
-}
-
-.card4{
-    background-color: plum;
-    padding-top: 10px;
-    height: 100%;
+    margin-bottom: 20px;
 }
 
 .top{
@@ -77,10 +54,10 @@ nav {
     
 } */
 
-
+/* 
 a:visited {
     color: black;
-} 
+}  */
 
 .card-end{
     visibility: hidden;

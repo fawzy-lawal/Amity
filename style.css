@@ -102,50 +102,14 @@ hr {
 i{
     size: 32px;
 }
-.card{
+
+.amityCard{
     background-color: plum;
-    color:white;
+    /* color:white; */
     padding-top: 10px;
     text-decoration: none;
-}
-.card{
-    background-color: plum;
-    color:black;
-    padding-top: 10px;
-
-}
-
-
-
-.card{
-    background-color: plum;
-    color:black;
-    padding-top: 10px;
-
-}
-
-.card1{
-    background-color: plum;
-    color:black;
-    padding-top: 10px;
     height: 100%;
-
-}
-
-.card2{
-    background-color: plum;
-    color:black;
-    padding-top: 10px;
-    height: 100%;
-
-}
-
-.card3{
-    background-color: plum;
-    color:black;
-    padding-top: 10px;
-    height: 100%;
-
+    margin-bottom: 20px;
 }
 
 .card-body{
@@ -165,12 +129,19 @@ a:visited {
     color: black;
 }  
 
+a:hover{
+    color: blue;
+}
 .card-end{
     visibility: hidden;
 }
-
+/* 
 h5{
     color: plum;
     text-shadow: white;
-    font-size: 40px;
+    font-size: 40px; */
+/* } */
+
+span {
+    color: white;
 }

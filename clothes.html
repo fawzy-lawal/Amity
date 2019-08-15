@@ -16,59 +16,146 @@
   <link rel="stylesheet" href="design.css" />
 
   <title>Amity</title>
+  <style>
+    @media only screen and (max-width: 600px) {
+        body {
+            justify-content: center;
+            text-align: center;
+        }
+
+        img {
+            width: auto;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 15px
+        }
+
+        .logo {
+            align-content: center;
+            justify-content: center;
+            padding-top: 15px;
+            padding-right: 5px;
+            padding-left: 5px;
+            width: 150px;
+            height: 150px;
+        }
+
+        .card-body {
+            width: 18rem;
+        }
+
+        .card-img-top {
+            width: 150px;
+        }
+
+        .card-body {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .card {
+            justify-content: space-around;
+        }
+
+        .navbar-toggler {
+            width: 60px;
+            height: 60px;
+        }
+
+        .nav {
+            width: 150px;
+        }
+
+        .dropdown-menu {
+            font-size: 15px;
+            width: 100px;
+        }
+
+        h4 {
+            font-size: 15px;
+        }
+
+        .dropdown-item {
+            height: 30px;
+            width: 50px;
+            font-size: 10px;
+        }
+    }
+</style>
 
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg justify-content-between">
-    <a class="navbar-brand" href="index.html">
-      <img src="Amity.png" width="30" height="30" class="d-inline-block align-top" alt="">
-      <span>Amity</span>
-    </a>
-    <span class="title"></span>
-    <!-- <a class="navbar-brand" href="#">Amity</a> -->
-    <form class="form-inline">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+   <!-- <nav class="navbar">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li> -->
-          <li class="nav-item dropdown">
-            <a class="DropdownMenu" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              <h4>
-                <font color="white">Click to donate today</font>
-              </h4>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <!-- <a class="dropdown-item" href="#">Food</a> -->
-              <a class="dropdown-item" href="food.html">Food</a>
-              <a class="dropdown-item" href="clothes.html">Clothes</a>
-              <a class="dropdown-item" href="volunteer.html">Volunteer Services</a>
-              <a class="dropdown-item" href="#">Disaster Services</a>
-              <a class="dropdown-item" href="#">School Services</a>
-            </div>
-          </li>
 
-          </li>
+            <li class="navbar-brand">
+                <a href="#" class="logoImg"><img src="Amity.png" height="40px" width="40px"></a>
+                <a class="logoName" href="#">Amity</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">What would you like to donate today?</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Food</a>
+                    <a class="dropdown-item" href="#">Clothes</a>
+                    <a class="dropdown-item" href="#">School Supplies</a>
+                    <a class="dropdown-item" href="#">Volunteer Services</a>
+                    <a class="dropdown-item" href="#">Disaster Relief Services</a>
+                </div>
+            </li>
         </ul>
-      </div>
-    </form>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg justify-content-between">
+      <a class="navbar-brand" href="index.html">
+          <img src="Amity.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          <!-- <span onclick="response()"> <a class="dropdown-item" href="index.html">Amity</a></span> -->
+          <span>Amity</span>
+      </a>
+
+      <form class="form-inline">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                  <a class="DropdownMenu" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      <h4>
+                          <font color="white" style="text-decoration:none">Click to donate today</font>
+                      </h4>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="food.html">Food</a>
+                      <a class="dropdown-item" href="clothes.html">Clothes</a>
+                      <a class="dropdown-item" href="volunteer.html">Volunteer Services</a>
+                      <a class="dropdown-item" href="#">Disaster Services</a>
+                      <a class="dropdown-item" href="#">School Services</a>
+                  </div>
+              </li>
+
+              </li>
+          </ul>
+          
+      
+          
+          
+          
+      </form>
   </nav>
   <div class="foodDonation">
     <div class="row justify-content-around">
       <!-- <div class="card col-3"></div> -->
-      <div class="card" style="width: 17rem;">
+      <div class="amityCard" style="width: 17rem;">
         <a href="https://pickupplease.org/" class="card-link">
           <img class="card-img-top" src="pickupplease.png" alt="Card image cap">
           <div class="card-body">
@@ -87,7 +174,7 @@
 
         </div>
       </div>
-      <div class="card" style="width: 17rem;">
+      <div class="amityCard" style="width: 17rem;">
         <a href="https://www.goodwill.org/" class="card-link">
           <img class="card-img-top" src="goodwill.png" alt="Card image cap">
           <div class="card-body">
@@ -106,7 +193,7 @@
 
         </div>
       </div>
-      <div class="card" style="width: 17rem;">
+      <div class="amityCard" style="width: 17rem;">
         <a href="https://dressforsuccess.org/" class="card-link">
           <img class="card-img-top" src="dressforsuccess.png" alt="Card image cap">
           <div class="card-body">
@@ -125,7 +212,7 @@
 
         </div>
       </div>
-      <div class="card" style="width: 17rem;">
+      <div class="amityCard" style="width: 17rem;">
         <a href="https://www.salvationarmyusa.org" class="card-link">
           <img class="card-img-top" src="salvation2.png" width="3%" height="150px" alt="Card image cap">
           <div class="card-body">
