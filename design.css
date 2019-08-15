@@ -62,3 +62,8 @@ a:visited {
 .card-end{
     visibility: hidden;
 }
+
+.card-body{
+    background-color: plum;
+    text-align:center;
+}
