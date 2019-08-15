@@ -168,3 +168,9 @@ a:visited {
 .card-end{
     visibility: hidden;
 }
+
+h5{
+    color: plum;
+    text-shadow: white;
+    font-size: 40px;
+}
